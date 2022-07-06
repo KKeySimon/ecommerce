@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Head from 'next/head';
 
 const Layout = () => {
   return (
-    <div>Layout</div>
+    <div classnName="layout">
+      <Head>
+        <title>KKey Store</title>
+      </Head>
+      <header>
+        <Navbar />
+      </header>
+    </div>
   )
 }
 
